@@ -1,0 +1,23 @@
+{
+    "name": "vuelidate-messages",
+    "version": "0.0.1",
+    "description": "Convenient and lighweight generation of messages on validation errors from vuelidate",
+    "author": "Bartłomiej Krzywania <b.krzywania@grupazero.pl>",
+    "license": "MIT",
+    "main": "src/index.js",
+    "scripts": {
+        "lint": "eslint --ext .js,.vue src test/unit/specs"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-vue": "^4.5.0",
+        "prettier": "^1.12.1"
+    },
+    "engines": {
+        "node": ">= 4.0.0",
+        "npm": ">= 3.0.0"
+    }
+}
